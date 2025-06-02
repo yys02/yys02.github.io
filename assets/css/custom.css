@@ -1,0 +1,4 @@
+h1, .markdown-body h1 { font-size: 28px !important; margin-top: 48px; }
+h2, .markdown-body h2 { font-size: 20px !important; margin-top: 40px; }
+h3, .markdown-body h3 { font-size: 16px !important; margin-top: 28px; }
+ul, ol { font-size: 14px; } 

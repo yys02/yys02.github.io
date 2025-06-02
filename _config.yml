@@ -1,1 +1,43 @@
-theme: jekyll-theme-architect
+title: "BioPharma AI Weekly"
+description: "AI, BioPharma, Drug Discovery 분야의 최신 소식을 전합니다."
+url: "https://yy2s.github.io"
+baseurl: ""
+theme: "minimal-mistakes-jekyll"
+
+author:
+  name: "You Young Song"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "AI Scientist in BioPharma"
+  location: "Seoul, Korea"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-archives
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+paginate: 5
+paginate_path: /page:num/
+
+# 태그/카테고리 페이지 자동 생성
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
